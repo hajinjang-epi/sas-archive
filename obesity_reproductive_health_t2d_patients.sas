@@ -1,5 +1,7 @@
 
 /* Weight change and reproductive health - Type 2 diabetes */
+/* Writer: Hajin Jang */
+/* Date: 1/21/2024 */
 
 
 * Import data;
@@ -387,3 +389,4 @@ For the main independent variable percent weight change, the odds of diabetes pr
 adjusting for age, BMI, menopause, smoking status, and the categorical variable for number of chilren (Type 3 analysis of effects p-value<0.0001).
 Thd odds of diabetes prevalence are 1.2 times higher by 1 unit increase in percent weight change (OR=1.200, 95% CI=1.119-1.286).
 */
+
