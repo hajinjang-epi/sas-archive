@@ -9,7 +9,7 @@ OPTIONS MPRINT MLOGIC;
 
 %MACRO MYIMPORT(OUTFILE=, INFILE=, WKST=);
 	PROC IMPORT OUT= &OUTFILE
-				DATAFILE="C:\Users\HajinJang\OneDrive - University of Pittsburgh\PITT\COURSE\2023 F\SAS\Assignment\FINAL\&INFILE"
+				DATAFILE="C:\Users\HajinJang\OneDrive - University of Pittsburgh\PITT\Document\obesity_project\&INFILE"
 				DBMS=EXCEL REPLACE;
 		SHEET="'&WKST'";
 		GETNAMES=YES;
@@ -389,4 +389,5 @@ For the main independent variable percent weight change, the odds of diabetes pr
 adjusting for age, BMI, menopause, smoking status, and the categorical variable for number of chilren (Type 3 analysis of effects p-value<0.0001).
 Thd odds of diabetes prevalence are 1.2 times higher by 1 unit increase in percent weight change (OR=1.200, 95% CI=1.119-1.286).
 */
+
 
